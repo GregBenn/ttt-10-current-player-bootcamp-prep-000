@@ -1,6 +1,5 @@
 def turn_count(board)
-  # counter = 0
-  board.count{ |x| != " "}
-    # counter += 1
-  # end
+  board.count do |x|
+    x != " "
+  end
 end
